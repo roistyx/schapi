@@ -1,0 +1,25 @@
+schapi/
+├── config/              # Configuration files
+│   └── db.config.js     # Database configuration
+│   └── app.config.js    # Application-wide configuration (e.g., port, environment)
+├── controllers/         # Route handlers
+│   └── userController.js
+│   └── productController.js
+├── dao/                 # Data Access Object (DAO) files for database operations
+│   └── userDao.js       # User DAO (database access code for users)
+│   └── productDao.js    # Product DAO (database access code for products)
+├── models/              # Database models (schemas, ORMs)
+│   └── userModel.js
+│   └── productModel.js
+├── routes/              # Route definitions
+│   └── userRoutes.js
+│   └── productRoutes.js
+├── services/            # Business logic and application services
+│   └── userService.js
+│   └── productService.js
+├── utils/               # Utility functions (helpers, custom middleware)
+│   └── logger.js        # Custom logger
+│   └── errorHandler.js  # Error handling utilities
+├── app.js               # Main Express app setup (middleware, routes)
+├── server.js            # Server start (listens on a specified port)
+└── package.json         # Project metadata and dependencies
